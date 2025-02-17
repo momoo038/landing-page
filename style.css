@@ -41,6 +41,25 @@ body {
     color: #E5E7EB;
 }
 
+@media(max-width: 768px) {
+    .header {
+        flex-direction: column;  
+        text-align: center;
+        padding: 0px; 
+    }
+
+    .header ul {
+        flex-direction: column; 
+        gap: 10px;
+        padding: 0;
+    }
+
+    .header li {
+        display: inline-block; 
+        font-size: 14px; 
+    }
+}
+
 /* Hero */
 
 .hero {
@@ -90,6 +109,34 @@ body {
     margin-right: 1vw;
 }
 
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;  
+        text-align: center;
+        padding: 10px; 
+    }
+
+    .hero-text {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero button {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .img-placeholder {
+        display: none;
+    }
+}
+
 /* Information */
 
 .information {
@@ -129,6 +176,34 @@ body {
     height: clamp(50px, 20vh, 150px);
 }
 
+@media(max-width: 768px) {
+    .information {
+        flex-direction: column;  
+        text-align: center;
+        padding: 10px; 
+    }
+
+    .items {
+        flex-direction: column;  
+        gap: 10px;
+        padding: 0px; 
+    }
+
+    .item-container {
+        margin-bottom: 20px;
+    }
+
+    .item-description {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .item1, .item2, .item3, .item4 {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 /* Quote */
 
 .quote {
@@ -156,6 +231,24 @@ body {
     align-items: end;
     width: 45vw;
     margin-top: -24.9px;
+}
+
+@media(max-width: 768px) {
+    .quote {
+        flex-direction: column;  
+        text-align: center;
+        padding: 10px; 
+    }
+
+    .quote-text {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .quote-author {
+        font-size: 10px;
+        max-width: 100%;
+    }
 }
 
 /* Call to Action */
@@ -200,6 +293,34 @@ body {
     color: #fff;
 }
 
+@media(max-width: 768px) {
+    .call-to-action {
+        flex-direction: column;  
+        text-align: center;
+        padding: 10px; 
+    }
+
+    .CTA {
+        flex-direction: column;  
+        gap: 10px;
+        padding: 10px; 
+    }
+
+    .CTA-container {
+        margin-top: 20px;
+    }
+
+    .CTA-container p {
+        margin-top: 0px;
+    }
+
+    .CTA-container h1 {
+        font-size: 14px;
+    }
+    .CTA button {
+        font-size: 12px;
+    }
+}
 /* Footer */
 
 .footer {
