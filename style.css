@@ -138,7 +138,6 @@ body {
     flex-direction: column;
     padding: 2vw;
     padding-top: 5vw;
-    padding-bottom: 5vw;
     background-color: #E5E7EB;
 }
 
@@ -150,10 +149,13 @@ body {
 }
 
 .quote-author {
-    font-size: clamp(15px, 2vw, 24px);
+    display: flex;
+    font-size: clamp(11px, 2vw, 16px);
     color: #202020;
-    margin-left: 30vw;
-    margin-top: -2vw;
+    justify-content: end;
+    align-items: end;
+    width: 45vw;
+    margin-top: -24.9px;
 }
 
 /* Call to Action */
