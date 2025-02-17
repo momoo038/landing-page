@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.header p {
+    font-weight: 800;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
